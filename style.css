@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+    background-image: url("./images/bg-image.jpg");
+    background-size: cover;
+    
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+
+/*-----------------------------------------------*/
+/* advertisement */
+.promo {
+    text-align: center;
+    background-color: white;
+    font-size: 1.2rem;
+    padding: 20px 0;
+    color: black;
+}
+
+/* navigation bar */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    color: white;
+    font-weight: bold;
+    
+}
+/* logo name */
+.logo{
+    font-size: 1.5rem;
+    letter-spacing: 1rem;
+    line-height: 0.7;
+}
+
+.content ul {
+    display: flex;
+    gap: 60px;
+    font-size: 1.2rem;
+}
+.content ul a {
+    color: white;
+    text-decoration: none;
+}
+/* icons */
+.content div img {
+    height: 25px;
+}
+
+/* hero section */
+.APR {
+    margin-left: 70px;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+
+/* order section */
+.order {
+    text-align: center;
+    margin-top: 35px;
+}
+.order button {
+    padding: 13px 115px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+.order p {
+    font-size: 1.2rem;
+}
+#model3 {
+    margin-left: 25px;
+}
